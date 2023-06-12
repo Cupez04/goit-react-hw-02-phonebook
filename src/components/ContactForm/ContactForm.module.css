@@ -1,0 +1,48 @@
+/* styles.css */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .inputName,
+  .inputNumber {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .inputName:nth-child(1) {
+    margin-left: 20px;
+  }
+  .inputNumber:nth-child(1){
+    margin-left: 5px;
+  }
+  
+  .inputName:focus,
+  .inputNumber:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  .buttonEditor {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonEditor:hover {
+    background-color: #534ecc;
+  }
+  
